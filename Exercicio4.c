@@ -13,15 +13,30 @@
  */
 
 #include <stdio.h>
+#define MAX 200
 
-
-float soma(int n, float v[MAX]){
+float soma(int n, float V[MAX]){
     
+    if (n>=0){
+        return V[n] + soma(n-1, V);
+    }
     
-
+    return 0;
 }
 
 int main (){
-
+    int n, i;
+    float val;
+    float V[MAX];
+    scanf("%d",&n);
+    
+    for (i=0; i<n; i++){
+        scanf("%f",&val);
+        V[i] =val;
+    }
+    
+    float s = soma(n-1, V);
+    
+    printf("%.1f ", s);
 }
 
