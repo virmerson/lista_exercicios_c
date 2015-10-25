@@ -1,4 +1,8 @@
-
+/**
+ 
+ O que faz a funcao abaixo?
+ Escreva um programa para testar a função imprime_alguma_coisa.
+ **/
 
 #include<stdio.h>
 

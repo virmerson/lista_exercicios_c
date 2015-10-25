@@ -7,7 +7,7 @@
  ponto flutuante com n elementos, e calcule e devolva a soma desses
  números.
  (b) Usando a função do item anterior, escreva um programa que receba um
- número inteiro n, com n  1, e mais n números reais e calcule a soma
+ número inteiro n, com n >= 1, e mais n números reais e calcule a soma
  desses números.
  
  */

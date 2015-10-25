@@ -1,10 +1,12 @@
 /**
  A n-ésima potência de um número x, denotada por xn, pode ser computada
  recursivamente observando a seguinte a fórmula:
- xn =
- 
- 1 ; se n = 0 ;
- x  xn􀀀1 ; se n > 1 :
+ x ^ n=
+ {
+    1               ; se n = 0 ;
+    x *  x ^ (n-1)  ; se n > 1 ;
+ }
+ 
  Considere neste exercício que x e n são números inteiros.
  (a) Escreva uma função não-recursiva com a seguinte interface:
  int pot(int x, int n)
@@ -13,7 +15,7 @@
  int potR(int x, int n)
  que receba dois números inteiros x e n e calcule e devolva xn.
  (c) Escreva um programa que receba dois números inteiros x e n, com
- n  0, e devolva xn. Use as funções em (a) e (b) para mostrar os dois
+ n >= 0, e devolva x ^ n. Use as funções em (a) e (b) para mostrar os dois
  resultados.
  
  */
