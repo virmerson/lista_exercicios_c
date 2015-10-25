@@ -33,8 +33,14 @@ int potencia (int x, int n){
 
 int main (){
     
+    int x, y;
+    printf("Digite um Número Inteiro:");
+    scanf("%d", &x );
     
-    int r = potencia(2, 4);
+    printf("Digite um Número Inteiro Potencia:");
+    scanf("%d", &y );
+
+    int r = potencia(x, y);
     printf("%d ", r );
     
 }
