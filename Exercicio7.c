@@ -23,7 +23,12 @@ int piso_log2(int n){
 }
 
 int main (){
-    int l =  piso_log2 (256);
+    
+    int n;
+    printf("Digite um Número Inteiro:");
+    scanf("%d", &n );
+    
+    int l =  piso_log2 (n);
     printf("%d ", l);
 
     

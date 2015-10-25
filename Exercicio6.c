@@ -26,8 +26,12 @@ int fib(int i){
 }
 
 int main(){
-
-    int r =  fib (7);
+    
+    int n;
+    printf("Digite um Número Inteiro:");
+    scanf("%d", &n );
+    
+    int r =  fib (n);
     printf("%d ", r);
     return 0;
 }
